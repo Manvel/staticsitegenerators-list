@@ -1,0 +1,132 @@
+table.sortable thead {
+  background-color: #eee;
+  color: #666666;
+  font-weight: bold;
+  cursor: pointer;
+}
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 1.5em;
+}
+h2 {
+  font-size: 1em;
+}
+a {
+  text-decoration: none;
+}
+footer {
+  margin: 2em;
+}
+footer a {
+  margin: 1em;
+}
+body.buttons {
+  overflow: hidden;
+}
+#service-buttons-container {
+  margin: 0.5em 0;
+  height: 2em;
+  max-height: 2em;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+  width: 100%;
+}
+.service-buttons .social-buttons,
+.service-buttons .service-badges {
+  display: block;
+  margin-top: 0.5em;
+}
+.service-buttons .service-button {
+  display: inline-block;
+  width: 100px;
+  text-align: left;
+  overflow: hidden;
+  vertical-align: middle;
+}
+.service-buttons .service-button.google-plus-one-button {
+  width: 80px;
+}
+.service-buttons .service-button.hacker-news-submit-button {
+  width: 180px;
+}
+.service-buttons .service-button.twitter-follow-button,
+.service-buttons .service-button.fury-button,
+.service-buttons .service-button.gittip-button {
+  width: 130px;
+}
+.service-buttons .service-button.reddit-submit-button {
+  width: 140px;
+}
+.service-buttons .service-button.reddit-submit-button iframe {
+  margin-bottom: -3px;
+}
+.projects {
+  cursor: default;
+  border-collapse: collapse;
+}
+.projects th {
+  font-size: 110%;
+  color: black;
+  font: -apple-system, serif;
+  padding: 0.4em 0.5em;
+  border: 1px solid #999;
+  border-right: 0;
+}
+.projects tr td {
+  padding: 1em 0;
+}
+.projects th:nth-child(2),
+.projects td:nth-child(2) {
+  width: 100%;
+  text-align: left;
+}
+.projects th:nth-child(2) label,
+.projects td:nth-child(2) label {
+  font-weight: bold;
+  display: block;
+}
+.projects td:nth-child(2) {
+  padding: 0.5em 0.5em;
+}
+.projects td:nth-child(2) span {
+  color: #777;
+}
+.projects th:nth-child(1),
+.projects td:nth-child(1) {
+  text-align: right;
+}
+.projects td:nth-child(1) {
+  font-family: monospace;
+}
+.projects th:nth-child(3),
+.projects td:nth-child(3),
+.projects th:nth-child(4),
+.projects td:nth-child(4),
+.projects th:nth-child(5),
+.projects td:nth-child(5),
+.projects th:nth-child(6),
+.projects td:nth-child(6) {
+  text-align: center;
+}
+.projects th:nth-child(3),
+.projects td:nth-child(3) {
+  max-width: 8em;
+}
+.projects th:nth-child(5),
+.projects td:nth-child(5),
+.projects th:nth-child(6),
+.projects td:nth-child(6) {
+  min-width: 6em;
+}
+.projects tbody tr td {
+  border-bottom: 1px solid #eee;
+}
+.projects tbody tr:hover {
+  background: #eee;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImlucHV0Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLEtBQUssU0FBVTtFQUVkLHNCQUFBO0VBQ0EsY0FBQTtFQUNBLGlCQUFBO0VBQ0EsZUFBQTs7QUFHRDtBQUNBO0VBRUMsU0FBQTtFQUNBLFVBQUE7O0FBR0Q7RUFFQyxnQkFBQTs7QUFHRDtFQUVDLGNBQUE7O0FBR0Q7RUFFQyxxQkFBQTs7QUFHRDtFQUVDLFdBQUE7O0FBRkQsTUFHRTtFQUVBLFdBQUE7O0FBSUYsSUFBSTtFQUVILGdCQUFBOztBQUdEO0VBRUMsZUFBQTtFQUNBLFdBQUE7RUFDQSxlQUFBO0VBQ0EsZ0JBQUE7RUFDQSxZQUFBO0VBQ0EsdUJBQUE7RUFDQSxXQUFBOztBQUdELGdCQUVDO0FBRkQsZ0JBR0U7RUFFQSxjQUFBO0VBQ0EsaUJBQUE7O0FBTkYsZ0JBU0U7RUFFQSxxQkFBQTtFQUNBLFlBQUE7RUFDQSxnQkFBQTtFQUNFLGdCQUFBO0VBQ0Esc0JBQUE7O0FBQ0EsZ0JBUEYsZ0JBT0c7RUFFRixXQUFBOztBQUVDLGdCQVhGLGdCQVdHO0VBRUYsWUFBQTs7QUFFRCxnQkFmQSxnQkFlQztBQUNELGdCQWhCQSxnQkFnQkM7QUFDQyxnQkFqQkYsZ0JBaUJHO0VBRUYsWUFBQTs7QUFFQyxnQkFyQkYsZ0JBcUJHO0VBRUYsWUFBQTs7QUFGQyxnQkFyQkYsZ0JBcUJHLHFCQUdDO0VBRUYsbUJBQUE7O0FBTUo7RUFTQyxlQUFBO0VBQ0EseUJBQUE7O0FBVkQsU0FZRTtFQUVBLGVBQUE7RUFDQSxZQUFBO0VBQ0EsMEJBQUE7RUFDQSxvQkFBQTtFQUNBLHNCQUFBO0VBQ0EsZUFBQTs7QUFuQkYsU0FzQkUsR0FBRztFQUVILGNBQUE7O0FBT0UsU0FISCxHQUdJLFVBQVU7QUFBWCxTQUZGLEdBRUcsVUFBVTtFQU9aLFdBQUE7RUFDQSxnQkFBQTs7QUFSQyxTQUhILEdBR0ksVUFBVSxHQUVUO0FBRkYsU0FGRixHQUVHLFVBQVUsR0FFVDtFQUVGLGlCQUFBO0VBQ0EsY0FBQTs7QUFRQSxTQUZGLEdBRUcsVUFBVTtFQUVaLG9CQUFBOztBQUZDLFNBRkYsR0FFRyxVQUFVLEdBR1Q7RUFFRixXQUFBOztBQVNBLFNBSEgsR0FHSSxVQUFVO0FBQVgsU0FGRixHQUVHLFVBQVU7RUFFWixpQkFBQTs7QUE1REgsU0ErREUsR0FBRSxVQUFVO0VBRVosc0JBQUE7O0FBTUEsU0FIRCxHQUdFLFVBQVU7QUFBWCxTQUZBLEdBRUMsVUFBVTtBQUNYLFNBSkQsR0FJRSxVQUFVO0FBQVgsU0FIQSxHQUdDLFVBQVU7QUFDWCxTQUxELEdBS0UsVUFBVTtBQUFYLFNBSkEsR0FJQyxVQUFVO0FBQ1QsU0FOSCxHQU1JLFVBQVU7QUFBWCxTQUxGLEdBS0csVUFBVTtFQUVaLGtCQUFBOztBQU9DLFNBSEgsR0FHSSxVQUFVO0FBQVgsU0FGRixHQUVHLFVBQVU7RUFFWixjQUFBOztBQU9ELFNBSEQsR0FHRSxVQUFVO0FBQVgsU0FGQSxHQUVDLFVBQVU7QUFDVCxTQUpILEdBSUksVUFBVTtBQUFYLFNBSEYsR0FHRyxVQUFVO0VBRVosY0FBQTs7QUEvRkgsU0FtR0UsTUFBTSxHQUFHO0VBRVQsNkJBQUE7O0FBckdGLFNBd0dFLE1BQU0sR0FBRTtFQUVSLGdCQUFBIn0= */
